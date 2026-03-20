@@ -1,20 +1,33 @@
 # POLI USP - Segway
-Creation of a two-wheeled robot that stands by itself. Amazing, right?
+Creation of a two-wheeled robot that stands by itself with PID balance! ⚖️
 
-The project has been finished, however feel free to contact me as much as you like.
+This project was my course completion thesis, and you could implment it in yours, too!
 
-# **Story**
-The original idea for this project of mine was to create a simple guide for all engineering students that aspired to create **something** (*anything!*) for themselves, instead of always sistematically practicing last years' tests only to vomit lots of equations, in order to reach a 5.0 mark in some impossible test. Doesn't really makes sense to overcomplicate our lives with these, since technology is always advancing.
+This project is done, however feel free to contact me as much as you like.
 
-So what I did was to record my experience building a Segway from scratch, without knowing exactly what a Uno was, never used PID (I learned it, not used it) and not a clue of how to use a soldering tip. For me, it's hard to imagine a mechanical engineer that does not know how to solder, so for me it was a cool achievement.
+# 💡 **Story**
 
-That's it. I hope you have fun like I had using these info and maybe help improving it, since at that time I was like anyone, a complete amateur.
+The original idea for this project was to create a simple guide for all engineering students that aspired to create `something` for themselves. 
+Instead of wasting all energy with written tests in order to graduate, It would be very nice to make a working and real project on your name.
 
-# **Why Segway?**
-The best part in the mechanical engineering course is Control. I know i know, but making a robot that stands by itself is amazing. So amazing it makes you think that creating something like this is nearly impossible, but in reality it is just a little difficult (which is, a *lot* of difference!).
+Here, I recorded my experience building a Segway from scratch, just like another student, that doesn't even have soldering habilities. As a mechanical engineering student, I thought that I could give it a chance.
 
-# **Hardest Parts**
-For me, the hardest part of the whole robot was tuning the gyroscope, and you can have a better life quality reading this link: (https://www.geekmomprojects.com/gyroscopes-and-accelerometers-on-a-chip/). Thanks, Geek Mom.
+That's it. I hope you'll have fun just like I did, and use these info and maybe help improving it!
 
-# **Possible Upgrades**
-This segway used two normal motors, that *do not have encoders*. That being said, a whole lot of improvement is possible could use better control routines.
+# 🛴 **Why Segway?**
+
+The best part in the mechanical engineering course is Control. It's amazing that it lets you create something like this with relatively simple algorithms, and many more!
+
+# 💸 **Conditions**
+
+I tried to make this build the `cheapest` it could be. That means it may not be the most reliable build ever, but it's focused on low budget students, that don't have much money... **yet**.
+
+But be advised that everything that comes too cheap comes with...
+
+# 🚨 **Red flags** & **Possible Upgrades**
+
+If you keep having different performances over time, two culprits come to mind: `batteries` and `motors`. Invest more money on these it you can! 
+
+A very common issue in these kind of projects is always `gyroscope tuning`. luckily, you can save a lot of time reading this [link](https://www.geekmomprojects.com/gyroscopes-and-accelerometers-on-a-chip/) first! Geek Mom saved us.
+
+Lastly, this build did not use and encoders on the motors. Might be interesting, in the future, to implement these on the system... which probably requires board upgrades.
