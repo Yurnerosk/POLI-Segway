@@ -1,4 +1,4 @@
-# POLI USP - Segway
+# ⚔️ POLI USP - Segway
 Creation of a two-wheeled robot that stands by itself with PID balance! ⚖️
 
 This project was my course completion thesis, and you could implment it in yours, too!
